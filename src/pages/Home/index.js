@@ -1,9 +1,11 @@
 import React from 'react';
+import './styles.css';
+import MyTeams from '../../components/MyTeams';
 
 export default function Home() {
   return (
-    <div>
-      Home page
+    <div className="Home">
+      <MyTeams />
     </div>
   );
 }
