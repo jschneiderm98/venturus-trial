@@ -98,7 +98,7 @@
   border: 1px solid rgba(248, 241, 247, 0.5);
   background-color: transparent;
   position: absolute;
-  left: calc(0px - var(--radius)/2);
-  top: calc(50% - var(--radius)/2);
+  left: calc(0px - var(--radius) / 2);
+  top: calc(50% - var(--radius) / 2);
 
 }

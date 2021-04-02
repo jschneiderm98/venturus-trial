@@ -9,6 +9,6 @@
 
 body {
   background: #ffffff;
-  font: 14px 'Roboto';
+  font: 14px 'Roboto', sans-serif;
   -webkit-font-smoothing: antiliased !important;
 }
