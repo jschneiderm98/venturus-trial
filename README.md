@@ -1,5 +1,7 @@
 # venturus-trial
 
+[![codecov](https://codecov.io/gh/jschneiderm98/venturus-trial/branch/main/graph/badge.svg?token=F6XC5A9JRI)](https://codecov.io/gh/jschneiderm98/venturus-trial)
+
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=jschneiderm98_venturus-trial&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=jschneiderm98_venturus-trial) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=jschneiderm98_venturus-trial&metric=bugs)](https://sonarcloud.io/dashboard?id=jschneiderm98_venturus-trial) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=jschneiderm98_venturus-trial&metric=ncloc)](https://sonarcloud.io/dashboard?id=jschneiderm98_venturus-trial) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=jschneiderm98_venturus-trial&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=jschneiderm98_venturus-trial)[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=jschneiderm98_venturus-trial&metric=security_rating)](https://sonarcloud.io/dashboard?id=jschneiderm98_venturus-trial) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=jschneiderm98_venturus-trial&metric=code_smells)](https://sonarcloud.io/dashboard?id=jschneiderm98_venturus-trial) [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=jschneiderm98_venturus-trial&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=jschneiderm98_venturus-trial)
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/dashboard?id=jschneiderm98_venturus-trial)
@@ -17,7 +19,7 @@
 
  1. Clone the repository:
  ```
- git clone https://github.com/fga-eps-mds/2020.1-Conecta-Ensina-Backend.git
+ git clone https://github.com/jschneiderm98/venturus-trial.git
  ```
  2. Create local network with docker:
  ```
