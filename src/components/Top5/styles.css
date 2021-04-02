@@ -1,0 +1,76 @@
+.Top5 {
+  box-shadow: 0px 0px 1px 1px #f3ecf2;
+  background-color: #ffffff;
+  width: 600px;
+  height: 345px;
+  border-radius: 10px;
+}
+
+.ComponentHeader {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 1px solid #f8f1f7;
+  color: #64008b;
+  text-indent: 30px;
+}
+
+.ComponentBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Highest,
+.Lowest {
+  margin-right: 10px;
+  margin-top: 15px;
+  font-weight: 500;
+  text-align: start;
+  color: #333333;
+}
+
+.ItemList {
+  height: 200px;
+  width: 240px;
+  background-color: #f8f1f7;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.Item {
+  width: 230px;
+  height: 34px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Item>td {
+  align-self: center;
+  text-align: center;
+}
+
+.Item:first-child {
+  margin-top: 2px;
+}
+
+.Item>td:first-child {
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.Item>td:nth-child(2) {
+  padding-right: 10px;
+  font-weight: 700;
+  font-size: 12px;
+}
