@@ -18,7 +18,7 @@ export default function MyTeams() {
         </div>
       </div>
       <div className="ListComponent">
-        <table>
+        <table className="Table">
           <thead>
             <tr>
               <th>
@@ -44,8 +44,8 @@ export default function MyTeams() {
           <tbody>
             {itens && itens.map((item) => (
               <tr>
-                <td>{item.name}</td>
-                <td>
+                <td className="TeamsTableItem">{item.name}</td>
+                <td className="TeamsTableItem">
                   <div className="HoverField">
                     <span>{item.description}</span>
                     <div className="IconContainer">

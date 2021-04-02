@@ -1,54 +1,55 @@
-.Header{
+.Header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  height: 65px;
+  height: 50px;
   margin-left: 0;
-  background-image: linear-gradient(to right, rgb(199, 0, 71), rgb(147,0,109));
+  background-image: linear-gradient(to right, rgb(199, 0, 71), rgb(147, 0, 109));
 }
 
-.HeaderComponent{
+.HeaderComponent {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.Header:first-child{
-  padding-left: 40px;
+.Header:first-child {
+  padding-left: 35px;
 }
 
-.Header:nth-child(1){
+.Header:nth-child(1) {
   padding-right: 40px;
 }
 
-.HeaderComponent > img{
-  --size: 60px;
+.HeaderComponent>img {
+  --size: 45px;
   width: var(--size);
   height: var(--size + 5);
   padding-bottom: 8px;
 }
 
-.HeaderComponent > h2{
-  font-size: 24px;
+.HeaderComponent>h2 {
+  font-size: 18px;
   color: #f3f4f7;
   font-weight: 700;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
-.HeaderComponent > span{
-  font-size: 18px;
+.HeaderComponent>span {
+  font-size: 14px;
   color: #f3f4f7;
   font-weight: 500;
 }
+
 .circle {
-  --size: 45px;
+  --size: 35px;
   background-color: #f3f4f7;
   border-radius: 50%;
   height: var(--size);
   text-align: center;
   width: var(--size);
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .initials {

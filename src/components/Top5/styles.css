@@ -1,5 +1,4 @@
 .Top5 {
-  margin-left: 100px;
   box-shadow: 0px 0px 1px 1px #f3ecf2;
   background-color: #ffffff;
   width: 600px;
@@ -53,6 +52,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.Item>td {
+  align-self: center;
+  text-align: center;
 }
 
 .Item:first-child {

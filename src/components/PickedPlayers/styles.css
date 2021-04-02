@@ -1,9 +1,8 @@
-.ComponentBody {
-  margin-left: 100px;
+.Component {
   box-shadow: 0px 0px 1px 1px #f3ecf2;
   background-image: linear-gradient(#c10077, #6f0087);
   width: 600px;
-  height: 220px;
+  height: 250px;
   border-radius: 10px 10px 0 0;
   display: grid;
   grid-template-columns: 40% 20% 40%;

@@ -3,7 +3,7 @@ import './styles.css';
 
 export default function PickedPlayers() {
   return (
-    <div className="ComponentBody">
+    <div className="Component">
       <div className="Most">
         <span className="PickedText">Most Picked Player</span>
         <div className="Player">

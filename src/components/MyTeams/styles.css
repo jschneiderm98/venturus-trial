@@ -2,7 +2,7 @@
   box-shadow: 0px 0px 1px 1px #f3ecf2;
   background-color: #ffffff;
   width: 600px;
-  height: 500px;
+  height: 625px;
   border-radius: 10px 10px 0 0;
 }
 
@@ -53,7 +53,7 @@
   align-items: center;
 }
 
-table {
+.Table {
   width: 90%;
   margin-top: 20px;
   border-collapse: collapse;
@@ -64,7 +64,7 @@ thead>tr>th {
 }
 
 th,
-td {
+.TeamsTableItem {
   height: 30px;
   font-weight: 500;
   text-align: start;
@@ -93,25 +93,26 @@ th:first-child {
   width: 30%;
 }
 
-td {
+.TeamsTableItem {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #f8f1f7;
 }
 
-td:first-child {
+.TeamsTableItem:first-child {
   border-radius: 15px 0px 0px 15px;
 }
 
-td:nth-child(2) {
+.TeamsTableItem:nth-child(2) {
   border-radius: 0px 15px 15px 0px;
 }
 
 
-tbody>tr:hover td {
+tbody>tr:hover .TeamsTableItem {
   background-color: #f9eaf7;
   color: #93006d;
-  border-bottom: 0;
+  border: none;
+  border-collapse: separate;
 }
 
 .HoverField {
